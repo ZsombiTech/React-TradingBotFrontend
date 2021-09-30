@@ -1,0 +1,23 @@
+.main-background {
+  margin-top: 3vw;
+  width: 50vw;
+  background-color: #181d31;
+  opacity: 85%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: 25vw;
+  align-items: center;
+  justify-content: center;
+  align-content: space-between;
+  align-self: center;
+  height: 4vw;
+  border-radius: 30px;
+}
+
+.flower-logo {
+  padding-left: 2vw;
+  padding-top: 0.5vw;
+  height: 3vw;
+}
