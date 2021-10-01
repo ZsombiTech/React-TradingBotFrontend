@@ -6,7 +6,11 @@ export default function ProfileLine() {
     <Fragment>
       <div className="main-background">
         <div className="profile-picture"></div>
-        <div className="username">blockeed#0001</div>
+        <div className="main-texts">
+          <div className="username">blockeed#0001</div>
+          <div className="userstattext">(Monthly key)</div>
+        </div>
+
         <img src={virag} alt="Flowers" className="flower-logo" />
         <div className="status-icon"></div>
         <div className="version-text">LuxicaScripts 1.0.0 (Latest)</div>

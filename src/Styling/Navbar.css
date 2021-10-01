@@ -1,0 +1,30 @@
+.navbar {
+  margin-left: 9vw;
+  margin-top: -5vw;
+  background-color: #181d31;
+  width: 5.5vw;
+  opacity: 85%;
+  height: 45vw;
+  border-radius: 30px;
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.homeiconbox {
+  margin-top: 3vw;
+  color: white;
+}
+
+.fileiconbox {
+  color: white;
+}
+
+.runningiconbox {
+  color: white;
+}
+.bagiconbox {
+  color: white;
+}

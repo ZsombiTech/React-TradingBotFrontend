@@ -1,0 +1,9 @@
+.mainbackground {
+  width: 68vw;
+  background-color: #181d31;
+  opacity: 85%;
+  height: 37vw;
+  border-radius: 30px;
+  margin-top: -37.5vw;
+  margin-left: 17vw;
+}

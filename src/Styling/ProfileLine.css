@@ -1,23 +1,68 @@
 .main-background {
   margin-top: 3vw;
-  width: 50vw;
+  width: 68vw;
   background-color: #181d31;
   opacity: 85%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  margin-left: 25vw;
-  align-items: center;
-  justify-content: center;
+  margin-left: 17vw;
   align-content: space-between;
   align-self: center;
-  height: 4vw;
+  height: 5.5vw;
   border-radius: 30px;
 }
 
 .flower-logo {
+  padding-top: 0;
   padding-left: 2vw;
-  padding-top: 0.5vw;
   height: 3vw;
+  margin-right: 6vw;
+  margin-top: 1.3vw;
+}
+
+.profile-picture {
+  margin-top: 1.3vw;
+  height: 3vw;
+  width: 3vw;
+  background-color: gray;
+  border-radius: 50%;
+  margin-left: 5vw;
+  margin-right: 1.5vw;
+}
+
+.username {
+  font-family: "Roboto-thin", sans-serif;
+  font-size: 1.5vw;
+  color: #b4b4b4;
+  margin-top: 1.3vw;
+  margin-right: 11vw;
+}
+
+.userstattext {
+  font-family: "Roboto-thin", sans-serif;
+  font-size: 1vw;
+  color: #b4b4b4;
+}
+
+.version-text {
+  font-family: "Roboto-thin", sans-serif;
+  margin-left: 1vw;
+  font-size: 1.2vw;
+  color: #b4b4b4;
+  margin-top: 1.2vw;
+}
+.main-texts {
+  display: flex;
+  flex-direction: column;
+}
+
+.status-icon {
+  margin-top: 1.3vw;
+  height: 1.8vw;
+  width: 1.8vw;
+  background-color: #2ecc71;
+  border-radius: 50%;
+  margin-left: 6vw;
 }
