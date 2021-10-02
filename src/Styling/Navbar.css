@@ -14,21 +14,41 @@
 }
 
 .homeiconbox {
+  border: 0.2vw solid #8e44ad;
+  border-radius: 1.3vw;
+  background-color: #151927;
   margin-top: 3vw;
   color: white;
 }
 
 .fileiconbox {
+  border: 0.2vw solid #8e44ad;
+  border-radius: 1.3vw;
+  background-color: #151927;
   color: white;
 }
 
 .runningiconbox {
+  border: 0.2vw solid #8e44ad;
+  border-radius: 1.3vw;
+  background-color: #151927;
   color: white;
 }
 .bagiconbox {
+  border: 0.2vw solid #8e44ad;
+  border-radius: 1.3vw;
+  background-color: #151927;
   color: white;
 }
 .settingsiconbox {
+  border: 0.2vw solid #8e44ad;
+  border-radius: 1.3vw;
+  background-color: #151927;
   color: white;
   margin-bottom: 3vw;
+}
+
+.homeicon {
+  width: 2.5vw;
+  padding: 0.5vw;
 }
