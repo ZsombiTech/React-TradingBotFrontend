@@ -5,7 +5,7 @@
   width: 5.5vw;
   opacity: 85%;
   height: 45vw;
-  border-radius: 30px;
+  border-radius: 1.5vw;
   display: flex;
   align-self: center;
   justify-content: space-between;
@@ -27,4 +27,8 @@
 }
 .bagiconbox {
   color: white;
+}
+.settingsiconbox {
+  color: white;
+  margin-bottom: 3vw;
 }

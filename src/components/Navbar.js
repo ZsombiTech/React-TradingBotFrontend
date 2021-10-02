@@ -9,7 +9,7 @@ export default function Navbar() {
         <div className="fileiconbox">csa</div>
         <div className="runningiconbox">csa</div>
         <div className="bagiconbox">csa</div>
-        <div className="settingsiconbox"></div>
+        <div className="settingsiconbox">csa</div>
       </div>
     </Fragment>
   );

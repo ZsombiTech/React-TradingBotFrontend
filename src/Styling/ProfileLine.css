@@ -11,7 +11,7 @@
   align-content: space-between;
   align-self: center;
   height: 5.5vw;
-  border-radius: 30px;
+  border-radius: 1.5vw;
 }
 
 .flower-logo {
@@ -60,8 +60,8 @@
 
 .status-icon {
   margin-top: 1.3vw;
-  height: 1.8vw;
-  width: 1.8vw;
+  height: 1.5vw;
+  width: 1.5vw;
   background-color: #2ecc71;
   border-radius: 50%;
   margin-left: 6vw;
