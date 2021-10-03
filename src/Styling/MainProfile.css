@@ -32,3 +32,205 @@
   margin-top: 1.5vw;
   padding-bottom: 1vw;
 }
+
+.profilemaininput {
+  background-color: #101423;
+  border: 0.1vw solid #8e44ad;
+  border-radius: 1.5vw;
+  line-height: 2.4vw;
+  width: 12vw;
+  margin-top: 1.2vw;
+  margin-left: 4vw;
+}
+.profilemaininput::placeholder {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-size: 1.1vw;
+  padding-left: 1.2vw;
+  padding-top: 1vw;
+  color: #b4b4b4;
+}
+
+.maincontent::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column1 {
+  float: left;
+  width: 33.33%;
+  padding-top: 0.4vw;
+  height: 35vw;
+}
+
+.column2 {
+  float: left;
+  width: 33.33%;
+  padding-top: 0.4vw;
+  margin-left: -7vw;
+  height: 35vw;
+}
+.column3 {
+  float: left;
+  width: 33.33%;
+  padding-top: 0.4vw;
+  margin-left: -7vw;
+  height: 30vw;
+}
+.information {
+  font-size: 1.3vw;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  color: #b4b4b4;
+  margin-left: 4vw;
+  margin-top: 1vw;
+}
+
+.profilemaininput2 {
+  background-color: #101423;
+  border: 0.1vw solid #8e44ad;
+  border-radius: 1.5vw;
+  line-height: 2.2vw;
+  width: 12vw;
+  margin-top: 0.5vw;
+  margin-left: 4vw;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-size: 0.8vw;
+  padding-left: 1.2vw;
+  color: #b4b4b4;
+}
+
+.profilemaininput2::placeholder {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-size: 0.8vw;
+  padding-top: 1vw;
+  color: #b4b4b4;
+}
+
+.profilemaininput3 {
+  background-color: #101423;
+  border: 0.1vw solid #8e44ad;
+  border-radius: 1.5vw;
+  line-height: 2.2vw;
+  width: 12vw;
+  margin-top: 1.2vw;
+  margin-left: 4vw;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-size: 0.8vw;
+  padding-left: 1.2vw;
+  color: #b4b4b4;
+}
+
+.profilemaininput3::placeholder {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-size: 0.8vw;
+  padding-top: 1vw;
+  color: #b4b4b4;
+}
+
+.oneline {
+  display: flex;
+  flex-direction: row;
+}
+
+.profilemaininput4 {
+  background-color: #101423;
+  border: 0.1vw solid #8e44ad;
+  border-radius: 1.5vw;
+  line-height: 2.2vw;
+  width: 5.45vw;
+  margin-top: 1.2vw;
+  margin-left: 4vw;
+  margin-right: -3vw;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-size: 0.8vw;
+  padding-left: 1.2vw;
+  color: #b4b4b4;
+}
+
+.profilemaininput4::placeholder {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-size: 0.8vw;
+  padding-top: 1vw;
+  color: #b4b4b4;
+}
+
+.profilecreatenew {
+  background-color: #101423;
+  border: 0.1vw solid #b4b4b4;
+  border-radius: 1.5vw;
+  line-height: 2.4vw;
+  width: 12vw;
+  margin-top: 1.2vw;
+  margin-left: 4vw;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-size: 1.1vw;
+  color: #b4b4b4;
+}
+
+.profilemaininput5 {
+  background-color: #101423;
+  border: 0.1vw solid #8e44ad;
+  border-radius: 1.5vw;
+  line-height: 2.05vw;
+  width: 12vw;
+  margin-top: 0.5vw;
+  margin-left: 4vw;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-size: 0.8vw;
+  padding-left: 1.2vw;
+  color: #b4b4b4;
+}
+
+.profilemaininput5::placeholder {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-size: 0.8vw;
+  padding-top: 1vw;
+  color: #b4b4b4;
+}
+
+.profilemaininput6 {
+  background-color: #101423;
+  border: 0.1vw solid #8e44ad;
+  border-radius: 1.5vw;
+  line-height: 2.05vw;
+  width: 12vw;
+  margin-top: 1.2vw;
+  margin-left: 4vw;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-size: 0.8vw;
+  padding-left: 1.2vw;
+  color: #b4b4b4;
+}
+
+.profilemaininput6::placeholder {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-size: 0.8vw;
+  padding-top: 1vw;
+  color: #b4b4b4;
+}
+
+.profilesavechanges {
+  background-color: #101423;
+  border: 0.1vw solid #2ecc71;
+  border-radius: 1.5vw;
+  line-height: 2.4vw;
+  width: 12vw;
+  margin-top: 1.2vw;
+  margin-left: 4vw;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-size: 1.1vw;
+  color: #2ecc71;
+}
