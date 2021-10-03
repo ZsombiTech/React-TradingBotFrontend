@@ -2,6 +2,7 @@ import "./App.css";
 import Home from "./components/Home";
 import moon from "./Assets/moon.png";
 import Profiles from "./components/Profiles";
+import Zalando from "./components/Zalando";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 function App() {
   return (
@@ -15,6 +16,9 @@ function App() {
           </Route>
           <Route path="/profiles">
             <Profiles />
+          </Route>
+          <Route path="/zalando">
+            <Zalando />
           </Route>
         </Switch>
       </div>
