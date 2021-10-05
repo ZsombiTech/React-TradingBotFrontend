@@ -17,19 +17,19 @@
 .flower-logo {
   padding-top: 0;
   padding-left: 2vw;
-  height: 3vw;
+  height: 3.5vw;
   margin-right: 6vw;
-  margin-top: 1.3vw;
+  margin-top: 1.2vw;
 }
 
-.profile-picture {
+.profilepicture {
   margin-top: 1.3vw;
-  height: 3vw;
-  width: 3vw;
+  height: 3.2vw;
+  width: 3.2vw;
   background-color: gray;
   border-radius: 50%;
   margin-left: 5vw;
-  margin-right: 1.5vw;
+  margin-right: 1.2vw;
 }
 
 .username {

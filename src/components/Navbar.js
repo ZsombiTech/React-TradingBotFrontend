@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 import "../Styling/Navbar.css";
 import house from "../Assets/house.png";
+import shoespng from "../Assets/shoespng.png";
 
 export default function Navbar() {
   return (
@@ -13,7 +14,7 @@ export default function Navbar() {
           <img className="homeicon" src={house} alt="Home" />
         </div>
         <div className="runningiconbox">
-          <img className="homeicon" src={house} alt="Home" />
+          <img className="shoes" src={shoespng} alt="Shoes" />
         </div>
         <div className="bagiconbox">
           <img className="homeicon" src={house} alt="Home" />

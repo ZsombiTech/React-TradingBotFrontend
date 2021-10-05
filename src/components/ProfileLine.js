@@ -1,11 +1,16 @@
 import React, { Fragment } from "react";
-import virag from "../Assets/virag.jpg";
+import virag from "../Assets/luxicapng.png";
+import profilepicture from "../Assets/Image 1.png";
 import "../Styling/ProfileLine.css";
 export default function ProfileLine() {
   return (
     <Fragment>
       <div className="main-background">
-        <div className="profile-picture"></div>
+        <img
+          src={profilepicture}
+          alt="profilepicture"
+          className="profilepicture"
+        />
         <div className="main-texts">
           <div className="username">blockeed#0001</div>
           <div className="userstattext">(Monthly key)</div>

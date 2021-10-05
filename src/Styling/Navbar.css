@@ -14,41 +14,50 @@
 }
 
 .homeiconbox {
-  border: 0.2vw solid #8e44ad;
-  border-radius: 1.3vw;
+  border: 0.1vw solid #8e44ad;
+  border-radius: 1vw;
   background-color: #151927;
   margin-top: 3vw;
   color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
 }
 
 .fileiconbox {
-  border: 0.2vw solid #8e44ad;
-  border-radius: 1.3vw;
+  border: 0.1vw solid #8e44ad;
+  border-radius: 1vw;
   background-color: #151927;
   color: white;
 }
 
 .runningiconbox {
-  border: 0.2vw solid #8e44ad;
-  border-radius: 1.3vw;
+  border: 0.1vw solid #8e44ad;
+  border-radius: 1vw;
   background-color: #151927;
   color: white;
 }
 .bagiconbox {
-  border: 0.2vw solid #8e44ad;
-  border-radius: 1.3vw;
+  border: 0.1vw solid #8e44ad;
+  border-radius: 1vw;
   background-color: #151927;
   color: white;
 }
 .settingsiconbox {
-  border: 0.2vw solid #8e44ad;
-  border-radius: 1.3vw;
+  border: 0.1vw solid #8e44ad;
+  border-radius: 1vw;
   background-color: #151927;
   color: white;
   margin-bottom: 3vw;
 }
 
 .homeicon {
-  width: 2.5vw;
+  width: 2.9vw;
   padding: 0.5vw;
+}
+.shoes {
+  width: 2.9vw;
+  padding: 0.1vw;
 }
