@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import "../Styling/MainHome.css";
 import house from "../Assets/house.png";
-import zalando from "../Assets/zalando.png";
+import zalando from "../Assets/zalandopng.png";
 export default function MainHome() {
   return (
     <Fragment>
