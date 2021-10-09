@@ -1,0 +1,34 @@
+.mainbackground {
+  width: 68vw;
+  background-color: #181d31;
+  opacity: 85%;
+  height: 37vw;
+  border-radius: 1.5vw;
+  margin-top: -37.5vw;
+  margin-left: 17vw;
+}
+
+.houseicon {
+  width: 4vw;
+  height: 4vw;
+  margin-left: 5vw;
+  margin-top: 1.5vw;
+  padding-bottom: 1vw;
+}
+
+.topbar {
+  display: flex;
+  align-items: center;
+  border-bottom: 0.15vw solid #8e44ad;
+}
+
+.housetext {
+  text-transform: uppercase;
+  font-size: 1.6vw;
+  letter-spacing: 0.1vw;
+  color: #8e44ad;
+  font-family: "Roboto", sans-serif;
+  padding-left: 2vw;
+  margin-top: 1.5vw;
+  padding-bottom: 1vw;
+}

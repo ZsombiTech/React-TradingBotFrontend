@@ -31,6 +31,11 @@
   border-radius: 1vw;
   background-color: #151927;
   color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
 }
 
 .runningiconbox {
@@ -38,12 +43,22 @@
   border-radius: 1vw;
   background-color: #151927;
   color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
 }
 .bagiconbox {
   border: 0.1vw solid #8e44ad;
   border-radius: 1vw;
   background-color: #151927;
   color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
 }
 .settingsiconbox {
   border: 0.1vw solid #8e44ad;
@@ -51,6 +66,11 @@
   background-color: #151927;
   color: white;
   margin-bottom: 3vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
 }
 
 .homeicon {

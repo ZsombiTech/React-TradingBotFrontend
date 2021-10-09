@@ -1,0 +1,68 @@
+.modulecontainer {
+  margin-top: 3vw;
+  margin-left: 3vw;
+  background-color: #101423;
+  border: 0.001vw solid #8e44ad;
+  width: 13vw;
+  height: 9vw;
+  border-radius: 1vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.toggle22 {
+  margin-top: 0.2vw;
+  position: relative;
+  display: inline-block;
+  width: 3.6vw;
+  height: 1.7vw;
+  background-color: #101423;
+  border-radius: 1.2vw;
+  border: 0.1vw solid #8e44ad;
+}
+
+.toggle22:after {
+  content: "";
+  position: absolute;
+  width: 1.7vw;
+  height: 1.7vw;
+  border-radius: 50%;
+  background-color: #b4b4b4;
+  top: -0.1vw;
+  left: -0.1vw;
+  transition: all 0.5s;
+}
+
+.checkbox22:checked + .toggle22::after {
+  background-color: #8e44ad;
+  left: 1.75vw;
+}
+
+.checkbox22 {
+  display: none;
+}
+
+.toggleswitch22 {
+  margin-top: 0.2vw;
+  margin-left: 1vw;
+}
+
+.oneline22 {
+  margin-top: -1.5vw;
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  align-items: center;
+}
+
+.moduleflower {
+  width: 10vw;
+  height: 6.5vw;
+}
+
+.moduleflower22 {
+  margin-left: 2vw;
+  width: 5vw;
+  height: 3.5vw;
+}

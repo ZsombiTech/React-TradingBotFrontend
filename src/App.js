@@ -3,6 +3,10 @@ import Home from "./components/Home";
 import moon from "./Assets/moon.png";
 import Profiles from "./components/Profiles";
 import Zalando from "./components/Zalando";
+import Purchases from "./components/Purchases";
+import Settings from "./components/Settings";
+import Login from "./components/Login";
+import Modules from "./components/Modules";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 function App() {
   return (
@@ -19,6 +23,18 @@ function App() {
           </Route>
           <Route path="/zalando">
             <Zalando />
+          </Route>
+          <Route path="/purchases">
+            <Purchases />
+          </Route>
+          <Route path="/settings">
+            <Settings />
+          </Route>
+          <Route path="/login">
+            <Login />
+          </Route>
+          <Route path="/modules">
+            <Modules />
           </Route>
         </Switch>
       </div>
