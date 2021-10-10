@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import { Link } from "react-router-dom";
 import "../Styling/MainHome.css";
 import house from "../Assets/house.png";
 import zalando from "../Assets/zalandopng.png";
@@ -34,10 +35,13 @@ export default function MainHome() {
                 <h1 className="greentext">245</h1>
                 <h2 className="greentext2">Checkouts</h2>
               </div>
-              <div className="purplebutton">
-                <img className="purpleimg" src={zalando} alt="zalando" />
-                <h1 className="purpletext">FAV MODULE</h1>
-              </div>
+              <Link to="/zalando" className="maintextslink">
+                <div className="purplebutton">
+                  <img className="purpleimg" src={zalando} alt="zalando" />
+                  <h1 className="purpletext">FAV MODULE</h1>
+                </div>
+              </Link>
+
               <div className="bluebutton">
                 <h1 className="bluetext">€15812</h1>
                 <h2 className="bluetext2">MONEY SPENT</h2>

@@ -1,5 +1,6 @@
 import React, { Fragment } from "react";
 import "../Styling/Login.css";
+import { Link } from "react-router-dom";
 import flower from "../Assets/luxicapng.png";
 export default function Login() {
   return (
@@ -12,7 +13,9 @@ export default function Login() {
           className="loginlicensekey"
           placeholder="License key..."
         />
-        <input type="submit" className="loginsubmitbutton" value="Login" />
+        <Link to="/home">
+          <input type="submit" className="loginsubmitbutton" value="Login" />
+        </Link>
       </div>
     </Fragment>
   );

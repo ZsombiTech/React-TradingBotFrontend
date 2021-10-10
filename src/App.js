@@ -16,7 +16,7 @@ function App() {
         <img className="moon2" src={moon} alt="Moon picture" />
         <Switch>
           <Route exact path="/">
-            <Home />
+            <Login />
           </Route>
           <Route path="/profiles">
             <Profiles />
@@ -30,8 +30,8 @@ function App() {
           <Route path="/settings">
             <Settings />
           </Route>
-          <Route path="/login">
-            <Login />
+          <Route path="/home">
+            <Home />
           </Route>
           <Route path="/modules">
             <Modules />

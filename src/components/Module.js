@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import { Link } from "react-router-dom";
 import "../Styling/Module.css";
 import flower from "../Assets/zalandopng.png";
 export default function Module(props) {
@@ -18,7 +19,9 @@ export default function Module(props) {
               className="toggle22"
             ></label>
           </div>
-          <img src={flower} alt="settinga" className="moduleflower22" />
+          <Link to="/zalando">
+            <img src={flower} alt="settinga" className="moduleflower22" />
+          </Link>
         </div>
       </div>
     </Fragment>
