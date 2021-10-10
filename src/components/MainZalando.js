@@ -6,7 +6,7 @@ export default function MainZalando() {
     <Fragment>
       <div className="mainbackground">
         <div className="topbar">
-          <img className="houseicon2" src={zalando} alt="House" />
+          <img className="mainzalandotopicon" src={zalando} alt="House" />
           <div className="toggleswitch">
             <input type="checkbox" id="switch" className="checkbox" />
             <label for="switch" className="toggle"></label>

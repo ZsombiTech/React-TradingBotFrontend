@@ -8,9 +8,10 @@
   margin-left: 17vw;
 }
 
-.houseicon {
-  width: 4vw;
-  height: 4vw;
+.mainprofiletopicon {
+  filter: brightness(150%);
+  width: 3vw;
+  height: 3.5vw;
   margin-left: 5vw;
   margin-top: 1.5vw;
   padding-bottom: 1vw;
@@ -23,6 +24,7 @@
 }
 
 .housetext {
+  filter: brightness(130%);
   text-transform: uppercase;
   font-size: 1.6vw;
   letter-spacing: 0.1vw;

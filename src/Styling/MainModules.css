@@ -8,12 +8,13 @@
   margin-left: 17vw;
 }
 
-.houseicon {
-  width: 4vw;
+.mainmodulestopicon {
+  filter: brightness(150%);
+  width: 3.5vw;
   height: 4vw;
   margin-left: 5vw;
-  margin-top: 1.5vw;
-  padding-bottom: 1vw;
+  margin-top: 0.5vw;
+  margin-bottom: 0.5vw;
 }
 
 .topbar {
@@ -23,6 +24,7 @@
 }
 
 .housetext {
+  filter: brightness(130%);
   text-transform: uppercase;
   font-size: 1.6vw;
   letter-spacing: 0.1vw;

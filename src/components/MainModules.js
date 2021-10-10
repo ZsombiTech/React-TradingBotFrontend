@@ -8,7 +8,7 @@ export default function MainModules() {
     <Fragment>
       <div className="mainbackground">
         <div className="topbar">
-          <img className="houseicon" src={shoes} alt="House" />
+          <img className="mainmodulestopicon" src={shoes} alt="House" />
           <h1 className="housetext">Modules</h1>
         </div>
         <div className="maincontent">

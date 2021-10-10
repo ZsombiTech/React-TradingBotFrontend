@@ -84,18 +84,22 @@
 }
 
 .homeicon {
+  filter: brightness(120%);
   opacity: 100%;
   width: 2.9vw;
   height: 2.7vw;
   padding: 0.4vw;
 }
+
 .shoes {
+  filter: brightness(130%);
   opacity: 100%;
   width: 2.9vw;
   height: 2.7vw;
   padding: 0.005vw;
 }
 .crediticon {
+  filter: brightness(130%);
   opacity: 100%;
   height: 2.7vw;
   width: 2.9vw;
@@ -104,6 +108,7 @@
 }
 
 .bagicon {
+  filter: brightness(130%);
   height: 2.7vw;
   width: 2.9vw;
   padding: 0.4vw;
@@ -111,6 +116,7 @@
 }
 
 .settingsicon {
+  filter: brightness(130%);
   opacity: 100%;
   height: 2.8vw;
   width: 2.9vw;

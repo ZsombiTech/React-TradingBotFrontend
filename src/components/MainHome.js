@@ -7,7 +7,7 @@ export default function MainHome() {
     <Fragment>
       <div className="mainbackground">
         <div className="topbar">
-          <img className="houseicon" src={house} alt="House" />
+          <img className="mainhometopicon" src={house} alt="House" />
           <h1 className="housetext">Home</h1>
         </div>
         <div className="maincontent">

@@ -2,6 +2,7 @@ import React, { Fragment } from "react";
 import { Link } from "react-router-dom";
 import "../Styling/Module.css";
 import flower from "../Assets/zalandopng.png";
+import settings2 from "../Assets/settings2.png";
 export default function Module(props) {
   return (
     <Fragment>
@@ -20,7 +21,7 @@ export default function Module(props) {
             ></label>
           </div>
           <Link to="/zalando">
-            <img src={flower} alt="settinga" className="moduleflower22" />
+            <img src={settings2} alt="settings" className="moduleflower22" />
           </Link>
         </div>
       </div>

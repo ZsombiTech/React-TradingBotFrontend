@@ -8,7 +8,8 @@
   margin-left: 17vw;
 }
 
-.houseicon2 {
+.mainzalandotopicon {
+  filter: brightness(120%);
   width: 15vw;
   margin-left: 2.5vw;
   margin-bottom: -2.8vw;
