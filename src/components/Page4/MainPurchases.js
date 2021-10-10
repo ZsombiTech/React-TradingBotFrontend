@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
-import "../Styling/MainPurchases.css";
-import creditcard from "../Assets/creditcard.png";
+import "../../Styling/MainPurchases.css";
+import creditcard from "../../Assets/creditcard.png";
 import PurchaseItem from "./PurchaseItem";
 
 export default function MainPurchases() {

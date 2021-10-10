@@ -45,7 +45,7 @@
   padding-right: 2vw;
   padding-bottom: 1vw;
   border-bottom: 0.15vw solid #b4b4b4;
-  width: 22vw;
+  width: 24vw;
 }
 
 .updatetext {
@@ -105,6 +105,7 @@
 }
 
 .informationbuttons {
+  margin-top: 1.5vw;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -113,8 +114,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 6vw;
-  height: 6vw;
+  width: 8vw;
+  height: 8vw;
   border-radius: 1.5vw;
   border: 0.15vw solid #2ecc71;
   background-color: #101423;
@@ -125,31 +126,31 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 6vw;
-  height: 6vw;
+  width: 8vw;
+  height: 8vw;
   border-radius: 1.5vw;
   border: 0.15vw solid #8e44ad;
   background-color: #101423;
   margin-top: 2vw;
-  margin-left: 2vw;
+  margin-left: 1vw;
 }
 .bluebutton {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 6vw;
-  height: 6vw;
+  width: 8vw;
+  height: 8vw;
   border-radius: 1.5vw;
   border: 0.15vw solid #00a8ff;
   background-color: #101423;
   margin-top: 2vw;
-  margin-left: 2vw;
+  margin-left: 1vw;
 }
 .greentext {
   font-family: "Roboto-thin", sans-serif;
   font-weight: 100;
   color: #2ecc71;
-  padding-top: 1.2vw;
+  padding-top: 2.3vw;
   font-size: 1.5vw;
 }
 
@@ -160,7 +161,7 @@
   color: #2ecc71;
 }
 .purpleimg {
-  padding-top: 0.5vw;
+  padding-top: 1.3vw;
   margin-bottom: -1vw;
   width: 5vw;
 }
@@ -175,7 +176,7 @@
   font-family: "Roboto-thin", sans-serif;
   font-weight: 100;
   color: #00a8ff;
-  padding-top: 1.4vw;
+  padding-top: 2.3vw;
   font-size: 1.2vw;
 }
 .bluetext2 {
@@ -184,4 +185,17 @@
   color: #00a8ff;
   padding-top: 0.2vw;
   font-size: 0.7vw;
+}
+
+.changelog2 {
+  font-size: 1.2vw;
+  color: #b4b4b4;
+  font-family: "Roboto-thin", sans-serif;
+  font-weight: 50;
+  margin-left: 4vw;
+  padding-top: 1.5vw;
+  padding-right: 2vw;
+  padding-bottom: 1vw;
+  border-bottom: 0.15vw solid #b4b4b4;
+  width: 26vw;
 }

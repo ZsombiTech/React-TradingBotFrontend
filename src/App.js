@@ -1,12 +1,12 @@
 import "./App.css";
-import Home from "./components/Home";
+import Home from "./components/Page1/Home";
 import moon from "./Assets/moon.png";
-import Profiles from "./components/Profiles";
-import Zalando from "./components/Zalando";
-import Purchases from "./components/Purchases";
-import Settings from "./components/Settings";
-import Login from "./components/Login";
-import Modules from "./components/Modules";
+import Profiles from "./components/Page2/Profiles";
+import Zalando from "./components/Page3/Zalando";
+import Purchases from "./components/Page4/Purchases";
+import Settings from "./components/Page5/Settings";
+import Login from "./components/Page6/Login";
+import Modules from "./components/Page7/Modules";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 function App() {
   return (

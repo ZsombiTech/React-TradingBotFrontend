@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
-import "../Styling/Login.css";
+import "../../Styling/Login.css";
 import { Link } from "react-router-dom";
-import flower from "../Assets/luxicapng.png";
+import flower from "../../Assets/luxicapng.png";
 export default function Login() {
   return (
     <Fragment>

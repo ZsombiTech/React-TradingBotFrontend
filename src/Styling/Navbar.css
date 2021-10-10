@@ -17,7 +17,7 @@
   border: 0.1vw solid #8e44ad;
   border-radius: 1vw;
   background-color: #151927;
-  margin-top: 3vw;
+  margin-top: 6vw;
   width: 3.5vw;
   height: 3.5vw;
   color: white;
@@ -75,7 +75,7 @@
   color: white;
   width: 3.5vw;
   height: 3.5vw;
-  margin-bottom: 3vw;
+  margin-bottom: 6vw;
   display: flex;
   flex-direction: row;
   justify-content: center;

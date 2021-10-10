@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
-import "../Styling/PurchaseItem.css";
-import zalandologo from "../Assets/zalandopng.png";
+import "../../Styling/PurchaseItem.css";
+import zalandologo from "../../Assets/zalandopng.png";
 export default function PurchaseItem() {
   return (
     <Fragment>

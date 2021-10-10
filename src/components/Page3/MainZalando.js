@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
-import zalando from "../Assets/zalandopng.png";
-import "../Styling/MainZalando.css";
+import zalando from "../../Assets/zalandopng.png";
+import "../../Styling/MainZalando.css";
 export default function MainZalando() {
   return (
     <Fragment>

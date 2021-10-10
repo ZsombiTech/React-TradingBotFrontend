@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
-import "../Styling/MainSettings.css";
-import discord from "../Assets/discordpng.png";
-import settings from "../Assets/settings.png";
+import "../../Styling/MainSettings.css";
+import discord from "../../Assets/discordpng.png";
+import settings from "../../Assets/settings.png";
 export default function MainSettings() {
   return (
     <Fragment>

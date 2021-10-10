@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
-import "../Styling/MainProfile.css";
-import creditcard from "../Assets/creditcard.png";
+import "../../Styling/MainProfile.css";
+import creditcard from "../../Assets/creditcard.png";
 export default function MainProfile() {
   return (
     <Fragment>

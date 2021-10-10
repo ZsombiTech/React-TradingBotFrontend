@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
-import "../Styling/MainModules.css";
-import shoes from "../Assets/shoespng.png";
+import "../../Styling/MainModules.css";
+import shoes from "../../Assets/shoespng.png";
 import Module from "./Module";
 export default function MainModules() {
   const szamlalo = 0;

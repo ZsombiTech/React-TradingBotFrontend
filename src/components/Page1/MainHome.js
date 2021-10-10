@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
-import "../Styling/MainHome.css";
-import house from "../Assets/house.png";
-import zalando from "../Assets/zalandopng.png";
+import "../../Styling/MainHome.css";
+import house from "../../Assets/house.png";
+import zalando from "../../Assets/zalandopng.png";
 export default function MainHome() {
   return (
     <Fragment>
@@ -28,7 +28,7 @@ export default function MainHome() {
             </div>
           </div>
           <div className="secondcolumn">
-            <div className="changelog">Information</div>
+            <div className="changelog2">Information</div>
             <div className="informationbuttons">
               <div className="greenbutton">
                 <h1 className="greentext">245</h1>

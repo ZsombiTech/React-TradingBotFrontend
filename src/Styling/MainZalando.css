@@ -49,7 +49,7 @@
   width: 2.3vw;
   height: 2.3vw;
   border-radius: 50%;
-  background-color: #8e44ad;
+  background-color: #b4b4b4;
   top: -0.1vw;
   left: -0.1vw;
   transition: all 0.5s;
@@ -61,6 +61,7 @@ p {
 }
 
 .checkbox:checked + .toggle::after {
+  background-color: #8e44ad;
   left: 2.3vw;
 }
 
@@ -114,7 +115,7 @@ p {
   font-weight: 100;
   font-size: 1vw;
   padding-left: 1.2vw;
-  color: #b4b4b4;
+  color: #7a7a7a;
 }
 
 .profilemaininput42::placeholder {
@@ -122,7 +123,7 @@ p {
   font-weight: 100;
   font-size: 1vw;
   padding-top: 1vw;
-  color: #b4b4b4;
+  color: #7a7a7a;
 }
 
 .maincontent::after {
@@ -155,7 +156,7 @@ p {
   font-weight: 100;
   font-size: 1vw;
   padding-left: 1.2vw;
-  color: #b4b4b4;
+  color: #7a7a7a;
 }
 
 .profilemaininput423::placeholder {
@@ -163,5 +164,4 @@ p {
   font-weight: 100;
   font-size: 1vw;
   padding-top: 1vw;
-  color: #b4b4b4;
 }

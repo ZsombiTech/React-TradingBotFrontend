@@ -1,8 +1,8 @@
 import React, { Fragment } from "react";
 import { Link } from "react-router-dom";
-import "../Styling/Module.css";
-import flower from "../Assets/zalandopng.png";
-import settings2 from "../Assets/settings2.png";
+import "../../Styling/Module.css";
+import flower from "../../Assets/zalandopng.png";
+import settings2 from "../../Assets/settings2.png";
 export default function Module(props) {
   return (
     <Fragment>
