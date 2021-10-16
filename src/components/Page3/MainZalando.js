@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useState } from "react";
 import zalando from "../../Assets/zalandopng.png";
 import Select from "react-select";
 import "../../Styling/MainZalando.css";
@@ -27,6 +27,14 @@ const listPayment = [
 ];
 
 export default function MainZalando() {
+  const [toggleon, setToggleon] = useState(true);
+  const toggling = () => {
+    if (toggleon) {
+      setToggleon(false);
+    } else {
+      setToggleon(true);
+    }
+  };
   const customStyles = {
     option: (provided, state) => ({
       ...provided,
@@ -220,8 +228,16 @@ export default function MainZalando() {
         <div className="topbar">
           <img className="mainzalandotopicon" src={zalando} alt="House" />
           <div className="toggleswitch">
-            <input type="checkbox" id="switch" className="checkbox" />
-            <label for="switch" className="toggle"></label>
+            <input
+              type="checkbox"
+              id="switch"
+              className="checkbox"
+              onChange={toggling}
+            />
+            <label
+              for="switch"
+              className={toggleon ? "toggle" : "toggle2"}
+            ></label>
           </div>
         </div>
         <div className="maincontent">

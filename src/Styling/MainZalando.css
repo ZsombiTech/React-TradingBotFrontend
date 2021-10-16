@@ -40,9 +40,17 @@
   height: 2.3vw;
   background-color: #101423;
   border-radius: 1.2vw;
+  border: 0.1vw solid #b4b4b4;
+}
+.toggle2 {
+  position: relative;
+  display: inline-block;
+  width: 4.6vw;
+  height: 2.3vw;
+  background-color: #101423;
+  border-radius: 1.2vw;
   border: 0.1vw solid #8e44ad;
 }
-
 .toggle:after {
   content: "";
   position: absolute;
@@ -54,12 +62,25 @@
   left: -0.1vw;
   transition: all 0.5s;
 }
-
+.toggle2:after {
+  content: "";
+  position: absolute;
+  width: 2.3vw;
+  height: 2.3vw;
+  border-radius: 50%;
+  background-color: #b4b4b4;
+  top: -0.1vw;
+  left: -0.1vw;
+  transition: all 0.5s;
+}
 .checkbox:checked + .toggle::after {
   background-color: #8e44ad;
   left: 2.3vw;
 }
-
+.checkbox:checked + .toggle2::after {
+  background-color: #8e44ad;
+  left: 2.3vw;
+}
 .checkbox {
   display: none;
 }
