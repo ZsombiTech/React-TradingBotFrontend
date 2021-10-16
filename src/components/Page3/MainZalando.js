@@ -34,13 +34,16 @@ export default function MainZalando() {
       padding: "1vw",
       fontSize: "1vw",
       fontFamily: "Roboto",
-      fontWeight: "100",
+      fontWeight: "300",
       backgroundColor: "#101423",
     }),
     menu: () => ({
-      marginRight: "-3vw",
       marginLeft: "4vw",
       width: "12vw",
+    }),
+    dropdownIndicator: () => ({
+      padding: 0,
+      marginRight: "0.5vw",
     }),
     placeholder: () => ({
       fontFamily: "Roboto",
@@ -61,7 +64,7 @@ export default function MainZalando() {
     multiValueLabel: () => ({
       color: "#b4b4b4",
       fontFamily: "Roboto",
-      fontWeight: "100",
+      fontWeight: "300",
     }),
     multiValueRemove: () => ({
       marginLeft: "1vw",
@@ -78,7 +81,6 @@ export default function MainZalando() {
       width: "12vw",
       marginTop: "1.5vw",
       marginLeft: "4vw",
-      marginRight: "-3vw",
       fontFamily: "Roboto",
       fontWeight: "300",
       fontSize: "1vw",
@@ -100,13 +102,15 @@ export default function MainZalando() {
       padding: "1vw",
       fontSize: "1vw",
       fontFamily: "Roboto",
-      fontWeight: "100",
+      fontWeight: "300",
       backgroundColor: "#101423",
     }),
     menu: () => ({
       marginLeft: "4vw",
-      marginRight: "-3vw",
       width: "12vw",
+    }),
+    dropdownIndicator: () => ({
+      paddingRight: "0.5vw",
     }),
     placeholder: () => ({
       fontFamily: "Roboto",
@@ -127,7 +131,6 @@ export default function MainZalando() {
       width: "12vw",
       marginTop: "1.5vw",
       marginLeft: "4vw",
-      marginRight: "-3vw",
       fontFamily: "Roboto",
       fontWeight: "300",
       fontSize: "1vw",
@@ -136,6 +139,77 @@ export default function MainZalando() {
     }),
 
     singleValue: () => ({
+      fontFamily: "Roboto",
+      fontWeight: "300",
+      color: "#b4b4b4",
+      marginTop: "-2vw",
+    }),
+  };
+  const customStyles3 = {
+    option: (provided, state) => ({
+      ...provided,
+      color: "#b4b4b4",
+      padding: "1vw",
+      fontSize: "1vw",
+      fontFamily: "Roboto",
+      fontWeight: "300",
+      backgroundColor: "#101423",
+    }),
+    menu: () => ({
+      marginLeft: "1vw",
+      width: "12vw",
+    }),
+    dropdownIndicator: () => ({
+      padding: 0,
+      marginRight: "0.5vw",
+      maxWidth: "1vw",
+    }),
+    placeholder: () => ({
+      fontFamily: "Roboto",
+      fontWeight: "300",
+      marginTop: "-0.4vw",
+      marginLeft: "-0.3vw",
+      marginBottom: "0.8vw",
+    }),
+    multiValue: () => ({
+      display: "flex",
+      width: "15vw",
+      height: "2vw",
+      marginLeft: "0.5vw",
+      color: "#b4b4b4",
+      marginBottom: "0.5vw",
+      marginTop: "0.7vw",
+    }),
+    multiValueLabel: () => ({
+      color: "#b4b4b4",
+      fontFamily: "Roboto",
+      fontWeight: "300",
+    }),
+    multiValueRemove: () => ({
+      marginLeft: "1vw",
+    }),
+    control: () => ({
+      display: "flex",
+      flexDirection: "row",
+      flexWrap: "wrap",
+      backgroundColor: "#101423",
+      border: "0.1vw solid #8e44ad",
+      borderRadius: "1vw",
+      lineHeight: "1vw",
+      height: "3vw",
+      width: "12vw",
+      marginTop: "1.5vw",
+      marginLeft: "1vw",
+      fontFamily: "Roboto",
+      fontWeight: "300",
+      fontSize: "1vw",
+      paddingLeft: "1.2vw",
+      color: "#7a7a7a",
+    }),
+
+    singleValue: () => ({
+      fontFamily: "Roboto",
+      fontWeight: "300",
       color: "#b4b4b4",
       marginTop: "-2vw",
     }),
@@ -164,7 +238,6 @@ export default function MainZalando() {
                 styles={customStyles22}
                 options={listMode}
                 components={{
-                  DropdownIndicator: () => null,
                   IndicatorSeparator: () => null,
                   ClearIndicator: () => null,
                 }}
@@ -172,10 +245,9 @@ export default function MainZalando() {
               />
               <Select
                 placeholder={"Profile"}
-                styles={customStyles22}
+                styles={customStyles3}
                 options={listProfile}
                 components={{
-                  DropdownIndicator: () => null,
                   IndicatorSeparator: () => null,
                   ClearIndicator: () => null,
                 }}
@@ -188,7 +260,6 @@ export default function MainZalando() {
                 styles={customStyles}
                 options={listSize}
                 components={{
-                  DropdownIndicator: () => null,
                   IndicatorSeparator: () => null,
                   ClearIndicator: () => null,
                 }}
@@ -197,10 +268,9 @@ export default function MainZalando() {
               />
               <Select
                 placeholder={"Payment Method"}
-                styles={customStyles22}
+                styles={customStyles3}
                 options={listPayment}
                 components={{
-                  DropdownIndicator: () => null,
                   IndicatorSeparator: () => null,
                   ClearIndicator: () => null,
                 }}
