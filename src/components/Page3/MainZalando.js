@@ -3,13 +3,27 @@ import zalando from "../../Assets/zalandopng.png";
 import Select from "react-select";
 import "../../Styling/MainZalando.css";
 
-const list = [
-  { label: "Apple", value: 1 },
-  { label: "Facebook", value: 2 },
-  { label: "Netflix", value: 3 },
-  { label: "Tesla", value: 4 },
-  { label: "Amazon", value: 5 },
-  { label: "Alphabet", value: 6 },
+const listMode = [
+  { label: "Random1", value: 1 },
+  { label: "Random2", value: 2 },
+  { label: "Random3", value: 3 },
+];
+const listProfile = [
+  { label: "Random12", value: 1 },
+  { label: "Random22", value: 2 },
+  { label: "Random32", value: 3 },
+];
+const listSize = [
+  { label: "Small", value: 1 },
+  { label: "Medium", value: 2 },
+  { label: "Large", value: 3 },
+  { label: "XLarge", value: 4 },
+  { label: "XLL Large", value: 5 },
+];
+const listPayment = [
+  { label: "Bank Card", value: 1 },
+  { label: "PayPal", value: 2 },
+  { label: "Bitcoin", value: 3 },
 ];
 
 export default function MainZalando() {
@@ -25,9 +39,8 @@ export default function MainZalando() {
     }),
     menu: () => ({
       marginRight: "-3vw",
-      borderRadius: "1vw",
       marginLeft: "4vw",
-      width: "10vw",
+      width: "12vw",
     }),
     placeholder: () => ({
       marginTop: "-0.4vw",
@@ -60,7 +73,7 @@ export default function MainZalando() {
       borderRadius: "1vw",
       lineHeight: "1vw",
       maxHeight: "20vw",
-      width: "10vw",
+      width: "12vw",
       marginTop: "1.5vw",
       marginLeft: "4vw",
       marginRight: "-3vw",
@@ -89,10 +102,9 @@ export default function MainZalando() {
       backgroundColor: "#101423",
     }),
     menu: () => ({
-      borderRadius: "1vw",
       marginLeft: "4vw",
       marginRight: "-3vw",
-      width: "10vw",
+      width: "12vw",
     }),
     placeholder: () => ({
       marginTop: "-0.4vw",
@@ -108,7 +120,7 @@ export default function MainZalando() {
       borderRadius: "1vw",
       lineHeight: "1vw",
       height: "3vw",
-      width: "10vw",
+      width: "12vw",
       marginTop: "1.5vw",
       marginLeft: "4vw",
       marginRight: "-3vw",
@@ -146,7 +158,7 @@ export default function MainZalando() {
               <Select
                 placeholder={"Mode"}
                 styles={customStyles22}
-                options={list}
+                options={listMode}
                 components={{
                   DropdownIndicator: () => null,
                   IndicatorSeparator: () => null,
@@ -157,7 +169,7 @@ export default function MainZalando() {
               <Select
                 placeholder={"Profile"}
                 styles={customStyles22}
-                options={list}
+                options={listProfile}
                 components={{
                   DropdownIndicator: () => null,
                   IndicatorSeparator: () => null,
@@ -170,7 +182,7 @@ export default function MainZalando() {
               <Select
                 placeholder={"Select size"}
                 styles={customStyles}
-                options={list}
+                options={listSize}
                 components={{
                   DropdownIndicator: () => null,
                   IndicatorSeparator: () => null,
@@ -182,7 +194,7 @@ export default function MainZalando() {
               <Select
                 placeholder={"Payment Method"}
                 styles={customStyles22}
-                options={list}
+                options={listPayment}
                 components={{
                   DropdownIndicator: () => null,
                   IndicatorSeparator: () => null,
