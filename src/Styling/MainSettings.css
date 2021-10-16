@@ -16,24 +16,24 @@
   margin-top: 1.5vw;
   padding-bottom: 1vw;
 }
-
+.housetext {
+  font-family: "Roboto", sans-serif;
+  font-weight: 1000;
+  filter: brightness(130%);
+  text-transform: uppercase;
+  font-size: 1.6vw;
+  letter-spacing: 0.1vw;
+  color: #8e44ad;
+  padding-left: 2vw;
+  margin-top: 1.5vw;
+  padding-bottom: 1vw;
+}
 .topbar {
   display: flex;
   align-items: center;
   border-bottom: 0.15vw solid #8e44ad;
 }
 
-.housetext {
-  filter: brightness(130%);
-  text-transform: uppercase;
-  font-size: 1.6vw;
-  letter-spacing: 0.1vw;
-  color: #8e44ad;
-  font-family: "Roboto", sans-serif;
-  padding-left: 2vw;
-  margin-top: 1.5vw;
-  padding-bottom: 1vw;
-}
 .discordtitle {
   display: flex;
   flex-direction: row;
@@ -52,7 +52,7 @@
 .settingspagediscordtext {
   color: #b4b4b4;
   font-family: "Roboto", sans-serif;
-  font-weight: 100;
+  font-weight: 300;
   margin-left: 1vw;
   font-size: 2vw;
 }
@@ -66,15 +66,15 @@
 .discordwebhookinput {
   background-color: #101423;
   border: 0.001vw solid #8e44ad;
-  width: 35vw;
-  height: 3.5vw;
+  width: 40vw;
+  height: 3.8vw;
   border-radius: 1vw;
   color: #7a7a7a;
   text-align: left;
   padding-left: 2vw;
   font-size: 1.3vw;
   font-family: "Roboto", sans-serif;
-  font-weight: 100;
+  font-weight: 300;
 }
 
 .discordwebhookinput::placeholder {
@@ -82,18 +82,19 @@
   text-align: left;
   font-size: 1.3vw;
   font-family: "Roboto", sans-serif;
-  font-weight: 100;
+  font-weight: 300;
 }
 
 .discordwebhooksubmit {
   margin-top: 2vw;
   background-color: #101423;
   border: 0.001vw solid #2ecc71;
-  width: 35vw;
-  height: 3.5vw;
+  width: 40vw;
+  height: 3.8vw;
   color: #2ecc71;
   border-radius: 1vw;
   font-size: 1.3vw;
   font-family: "Roboto", sans-serif;
-  font-weight: 100;
+  letter-spacing: 0.04vw;
+  font-weight: 300;
 }

@@ -1,5 +1,5 @@
 .fullsor {
-  margin-top: 3vw;
+  margin-top: 1vw;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -9,29 +9,29 @@
 
 .zalandologo {
   margin-right: 0.6vw;
-  width: 6vw;
+  width: 7vw;
 }
 
 .purchasename {
   font-size: 1.2vw;
   color: #b4b4b4;
-  font-family: "Roboto-thin", sans-serif;
-  font-weight: 100;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
 }
 
 .purchasemethod {
   font-size: 1.2vw;
   margin-left: 1.7vw;
   color: #b4b4b4;
-  font-family: "Roboto-thin", sans-serif;
-  font-weight: 100;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
 }
 .purchaseamount {
   font-size: 1.2vw;
   margin-left: 1.7vw;
   color: #b4b4b4;
-  font-family: "Roboto-thin", sans-serif;
-  font-weight: 100;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
 }
 
 .column41 {

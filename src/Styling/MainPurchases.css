@@ -16,21 +16,20 @@
   margin-top: 1.5vw;
   padding-bottom: 1vw;
 }
-
-.topbar {
-  display: flex;
-  align-items: center;
-  border-bottom: 0.15vw solid #8e44ad;
-}
-
 .housetext {
+  font-family: "Roboto", sans-serif;
+  font-weight: 1000;
   filter: brightness(130%);
   text-transform: uppercase;
   font-size: 1.6vw;
   letter-spacing: 0.1vw;
   color: #8e44ad;
-  font-family: "Roboto", sans-serif;
   padding-left: 2vw;
   margin-top: 1.5vw;
   padding-bottom: 1vw;
+}
+.topbar {
+  display: flex;
+  align-items: center;
+  border-bottom: 0.15vw solid #8e44ad;
 }
