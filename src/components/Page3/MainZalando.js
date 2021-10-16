@@ -13,24 +13,6 @@ const list = [
 ];
 
 export default function MainZalando() {
-  const customStyles2 = {
-    option: (provided, state) => ({
-      ...provided,
-      borderBottom: "1px dotted pink",
-      color: state.isSelected ? "red" : "blue",
-      padding: 20,
-    }),
-    control: () => ({
-      // none of react-select's styles are passed to <Control />
-      width: 200,
-    }),
-    singleValue: (provided, state) => {
-      const opacity = state.isDisabled ? 0.5 : 1;
-      const transition = "opacity 300ms";
-
-      return { ...provided, opacity, transition };
-    },
-  };
   const customStyles = {
     option: (provided, state) => ({
       ...provided,
@@ -42,8 +24,10 @@ export default function MainZalando() {
       backgroundColor: "#101423",
     }),
     menu: () => ({
+      marginRight: "-3vw",
       borderRadius: "1vw",
       marginLeft: "4vw",
+      width: "10vw",
     }),
     placeholder: () => ({
       marginTop: "-0.4vw",
@@ -76,8 +60,8 @@ export default function MainZalando() {
       borderRadius: "1vw",
       lineHeight: "1vw",
       maxHeight: "20vw",
-      width: "14vw",
-      marginTop: "1.2vw",
+      width: "10vw",
+      marginTop: "1.5vw",
       marginLeft: "4vw",
       marginRight: "-3vw",
       fontFamily: "Roboto",
@@ -86,12 +70,59 @@ export default function MainZalando() {
       paddingLeft: "1.2vw",
       color: "#7a7a7a",
     }),
+
     singleValue: (provided, state) => {
       const opacity = state.isDisabled ? 0.5 : 1;
       const transition = "opacity 300ms";
 
       return { ...provided, opacity, transition };
     },
+  };
+  const customStyles22 = {
+    option: (provided, state) => ({
+      ...provided,
+      color: "#b4b4b4",
+      padding: "1vw",
+      fontSize: "1vw",
+      fontFamily: "Roboto",
+      fontWeight: "100",
+      backgroundColor: "#101423",
+    }),
+    menu: () => ({
+      borderRadius: "1vw",
+      marginLeft: "4vw",
+      marginRight: "-3vw",
+      width: "10vw",
+    }),
+    placeholder: () => ({
+      marginTop: "-0.4vw",
+      marginLeft: "-0.3vw",
+      marginBottom: "0.8vw",
+    }),
+    control: () => ({
+      display: "flex",
+      flexDirection: "row",
+      flexWrap: "wrap",
+      backgroundColor: "#101423",
+      border: "0.1vw solid #8e44ad",
+      borderRadius: "1vw",
+      lineHeight: "1vw",
+      height: "3vw",
+      width: "10vw",
+      marginTop: "1.5vw",
+      marginLeft: "4vw",
+      marginRight: "-3vw",
+      fontFamily: "Roboto",
+      fontWeight: "100",
+      fontSize: "1vw",
+      paddingLeft: "1.2vw",
+      color: "#7a7a7a",
+    }),
+
+    singleValue: () => ({
+      color: "#b4b4b4",
+      marginTop: "-2vw",
+    }),
   };
   return (
     <Fragment>
@@ -112,19 +143,32 @@ export default function MainZalando() {
             />
             <h1 className="housetext2">Task settings</h1>
             <div className="oneline">
-              <input
-                type="text"
-                className="profilemaininput42"
-                placeholder="Mode"
+              <Select
+                placeholder={"Mode"}
+                styles={customStyles22}
+                options={list}
+                components={{
+                  DropdownIndicator: () => null,
+                  IndicatorSeparator: () => null,
+                  ClearIndicator: () => null,
+                }}
+                isSearchable={false}
               />
-              <input
-                type="text"
-                className="profilemaininput42"
-                placeholder="Profile"
+              <Select
+                placeholder={"Profile"}
+                styles={customStyles22}
+                options={list}
+                components={{
+                  DropdownIndicator: () => null,
+                  IndicatorSeparator: () => null,
+                  ClearIndicator: () => null,
+                }}
+                isSearchable={false}
               />
             </div>
             <div className="oneline2">
               <Select
+                placeholder={"Select size"}
                 styles={customStyles}
                 options={list}
                 components={{
@@ -135,10 +179,16 @@ export default function MainZalando() {
                 isSearchable={false}
                 isMulti
               />
-              <input
-                type="text"
-                className="profilemaininput42"
-                placeholder="Payment method"
+              <Select
+                placeholder={"Payment Method"}
+                styles={customStyles22}
+                options={list}
+                components={{
+                  DropdownIndicator: () => null,
+                  IndicatorSeparator: () => null,
+                  ClearIndicator: () => null,
+                }}
+                isSearchable={false}
               />
             </div>
           </div>

@@ -107,9 +107,9 @@ p {
   border: 0.1vw solid #8e44ad;
   border-radius: 1vw;
   line-height: 2.8vw;
-  width: 14vw;
+  width: 10vw;
   height: 3vw;
-  margin-top: 1.2vw;
+  margin-top: 1.5vw;
   margin-left: 4vw;
   margin-right: -3vw;
   font-family: "Roboto", sans-serif;
@@ -138,7 +138,7 @@ p {
   height: 30vw;
 }
 .column23 {
-  margin-top: 4vw;
+  margin-top: 4.5vw;
   float: left;
   width: 50%;
   height: 30vw;
