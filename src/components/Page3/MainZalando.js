@@ -152,7 +152,7 @@ export default function MainZalando() {
 
             <div className="oneline2">
               <input
-                type="number"
+                type="text"
                 className="profilemaininput42"
                 placeholder="Region (e.g. DE)"
               />
