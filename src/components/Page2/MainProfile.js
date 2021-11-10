@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 import "../../Styling/MainProfile.css";
 import creditcard from "../../Assets/creditcard.png";
+import Select from "react-select";
 export default function MainProfile() {
   return (
     <Fragment>
@@ -11,12 +12,16 @@ export default function MainProfile() {
         </div>
         <div className="maincontent">
           <div className="column1">
-            <input
-              type="text"
-              className="profilemaininput"
-              placeholder="Profile #1"
-              disabled
-            />
+            <div class="select-wrapper">
+              <select name="profiless" className="profilemaininput">
+                <option value="profile#1">Profile#1</option>
+                <option value="profile#2">Profile#2</option>
+                <option value="profile#3">Profile#3</option>
+                <option value="profile#4">Profile#4</option>
+                <option value="profile#">Profile#5</option>
+              </select>
+            </div>
+
             <h1 className="information">Information</h1>
             <input
               type="text"
@@ -35,28 +40,41 @@ export default function MainProfile() {
             />
             <h1 className="information">Payment</h1>
             <input
-              type="number"
+              type="text"
               className="profilemaininput3"
               placeholder="Credit card number"
             />
             <div className="oneline">
               <input
-                type="number"
+                type="text"
                 className="profilemaininput4"
                 placeholder="MM"
+                maxLength="2"
+                pattern="[0-9]|[0-9]"
+                name="MM"
+                inputmode="numeric"
               />
               <input
-                type="number"
+                type="text"
                 className="profilemaininput4"
                 placeholder="YYYY"
+                maxLength="4"
+                pattern="[0-9]|[0-9]|[0-9]|[0-9]"
+                name="YYYY"
+                inputmode="numeric"
               />
             </div>
             <input
-              type="number"
+              type="text"
               className="profilemaininput3"
               placeholder="CVV"
+              maxLength="4"
+              pattern="[0-9]|[0-9]|[0-9]|[0-9]"
+              name="cvv"
+              inputmode="numeric"
             />
           </div>
+
           <div className="column2">
             <input
               type="submit"
@@ -80,9 +98,10 @@ export default function MainProfile() {
               placeholder="Country Code (e.g. DE)"
             />
             <input
-              type="number"
+              type="text"
               className="profilemaininput5"
               placeholder="Zip code"
+              name="zip"
             />
             <input
               type="number"
