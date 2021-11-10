@@ -64,7 +64,7 @@
   float: left;
   width: 33.3%;
   padding-top: 0.4vw;
-  height: 50vw;
+  height: 20vw;
 }
 
 .column2 {
@@ -73,7 +73,7 @@
   float: left;
   width: 33.3%;
   margin-left: -7vw;
-  height: 50vw;
+  height: 20vw;
 }
 .column3 {
   display: flex;
@@ -81,7 +81,7 @@
   float: left;
   width: 33.33%;
   margin-left: -7vw;
-  height: 50vw;
+  height: 20vw;
 }
 .information {
   font-size: 1.3vw;
