@@ -182,3 +182,77 @@
   font-size: 1vw;
   padding-top: 1vw;
 }
+
+.profilemaininput41 {
+  display: inline-block;
+  background-color: #101423;
+  border: 0.1vw solid #8e44ad;
+  color: #7a7a7a;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 1.1vw;
+  border-radius: 1vw;
+  line-height: 2.8vw;
+  width: 12vw;
+  margin-top: 1.5vw;
+  margin-left: 4vw;
+  padding-left: 1vw;
+  appearance: none;
+  -webkit-appearance: none;
+}
+.profilemaininput41 * {
+  font-size: 0.9vw;
+}
+.select-wrapper41 {
+  position: relative;
+}
+
+.select-wrapper41::after {
+  content: "▼";
+  font-size: 1vw;
+  top: 2.5vw;
+  right: 0.8vw;
+  position: absolute;
+  color: #7a7a7a;
+}
+
+select:required:invalid {
+  color: #7a7a7a;
+}
+option[value=""][disabled] {
+  display: none;
+}
+
+.profilemaininput411 {
+  display: inline-block;
+  background-color: #101423;
+  border: 0.1vw solid #8e44ad;
+  color: #7a7a7a;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 1.1vw;
+  border-radius: 1vw;
+  line-height: 2.8vw;
+  width: 12vw;
+  margin-top: 1.5vw;
+  margin-left: 1vw;
+  padding-left: 1vw;
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+.profilemaininput411 * {
+  font-size: 0.9vw;
+}
+.select-wrapper411 {
+  position: relative;
+}
+
+.select-wrapper411::after {
+  content: "▼";
+  font-size: 1vw;
+  top: 2.5vw;
+  right: 0.8vw;
+  position: absolute;
+  color: #7a7a7a;
+}

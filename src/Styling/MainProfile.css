@@ -60,10 +60,11 @@
 
 .select-wrapper::after {
   content: "▼";
-  font-size: 1.2vw;
-  top: 1.9vw;
+  font-size: 1vw;
+  top: 2vw;
   right: 7.5vw;
   position: absolute;
+  color: #7a7a7a;
 }
 .maincontent::after {
   content: "";

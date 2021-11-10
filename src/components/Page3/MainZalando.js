@@ -50,6 +50,7 @@ export default function MainZalando() {
       width: "12vw",
     }),
     dropdownIndicator: () => ({
+      display: "none",
       padding: 0,
       marginRight: "0.5vw",
     }),
@@ -61,21 +62,21 @@ export default function MainZalando() {
       marginBottom: "0.8vw",
     }),
     multiValue: () => ({
+      lineHeight: "1vw",
       display: "flex",
-      width: "15vw",
-      height: "2vw",
-      marginLeft: "0.5vw",
-      color: "#b4b4b4",
-      marginBottom: "0.5vw",
-      marginTop: "0.7vw",
+      flexDirection: "row",
+      fontSize: "0.8vw",
+      marginLeft: "0.3vw",
     }),
     multiValueLabel: () => ({
+      lineHeight: "1vw",
       color: "#b4b4b4",
       fontFamily: "Roboto",
       fontWeight: "300",
     }),
     multiValueRemove: () => ({
-      marginLeft: "1vw",
+      marginLeft: "0.1vw",
+      marginTop: "0.1vw",
     }),
     control: () => ({
       display: "flex",
@@ -94,6 +95,7 @@ export default function MainZalando() {
       fontSize: "1vw",
       paddingLeft: "1.2vw",
       color: "#7a7a7a",
+      minHeight: "3vw",
     }),
 
     singleValue: (provided, state) => {
@@ -103,125 +105,7 @@ export default function MainZalando() {
       return { ...provided, opacity, transition };
     },
   };
-  const customStyles22 = {
-    option: (provided, state) => ({
-      ...provided,
-      color: "#b4b4b4",
-      padding: "1vw",
-      fontSize: "1vw",
-      fontFamily: "Roboto",
-      fontWeight: "300",
-      backgroundColor: "#101423",
-    }),
-    menu: () => ({
-      marginLeft: "4vw",
-      width: "12vw",
-    }),
-    dropdownIndicator: () => ({
-      paddingRight: "0.5vw",
-    }),
-    placeholder: () => ({
-      fontFamily: "Roboto",
-      fontWeight: "300",
-      marginTop: "-0.4vw",
-      marginLeft: "-0.3vw",
-      marginBottom: "0.8vw",
-    }),
-    control: () => ({
-      display: "flex",
-      flexDirection: "row",
-      flexWrap: "wrap",
-      backgroundColor: "#101423",
-      border: "0.1vw solid #8e44ad",
-      borderRadius: "1vw",
-      lineHeight: "1vw",
-      height: "3vw",
-      width: "12vw",
-      marginTop: "1.5vw",
-      marginLeft: "4vw",
-      fontFamily: "Roboto",
-      fontWeight: "300",
-      fontSize: "1vw",
-      paddingLeft: "1.2vw",
-      color: "#7a7a7a",
-    }),
 
-    singleValue: () => ({
-      fontFamily: "Roboto",
-      fontWeight: "300",
-      color: "#b4b4b4",
-      marginTop: "-2vw",
-    }),
-  };
-  const customStyles3 = {
-    option: (provided, state) => ({
-      ...provided,
-      color: "#b4b4b4",
-      padding: "1vw",
-      fontSize: "1vw",
-      fontFamily: "Roboto",
-      fontWeight: "300",
-      backgroundColor: "#101423",
-    }),
-    menu: () => ({
-      marginLeft: "1vw",
-      width: "12vw",
-    }),
-    dropdownIndicator: () => ({
-      padding: 0,
-      marginRight: "0.5vw",
-      maxWidth: "1vw",
-    }),
-    placeholder: () => ({
-      fontFamily: "Roboto",
-      fontWeight: "300",
-      marginTop: "-0.4vw",
-      marginLeft: "-0.3vw",
-      marginBottom: "0.8vw",
-    }),
-    multiValue: () => ({
-      display: "flex",
-      width: "15vw",
-      height: "2vw",
-      marginLeft: "0.5vw",
-      color: "#b4b4b4",
-      marginBottom: "0.5vw",
-      marginTop: "0.7vw",
-    }),
-    multiValueLabel: () => ({
-      color: "#b4b4b4",
-      fontFamily: "Roboto",
-      fontWeight: "300",
-    }),
-    multiValueRemove: () => ({
-      marginLeft: "1vw",
-    }),
-    control: () => ({
-      display: "flex",
-      flexDirection: "row",
-      flexWrap: "wrap",
-      backgroundColor: "#101423",
-      border: "0.1vw solid #8e44ad",
-      borderRadius: "1vw",
-      lineHeight: "1vw",
-      height: "3vw",
-      width: "12vw",
-      marginTop: "1.5vw",
-      marginLeft: "1vw",
-      fontFamily: "Roboto",
-      fontWeight: "300",
-      fontSize: "1vw",
-      paddingLeft: "1.2vw",
-      color: "#7a7a7a",
-    }),
-
-    singleValue: () => ({
-      fontFamily: "Roboto",
-      fontWeight: "300",
-      color: "#b4b4b4",
-      marginTop: "-2vw",
-    }),
-  };
   return (
     <Fragment>
       <div className="mainbackground">
@@ -249,49 +133,68 @@ export default function MainZalando() {
             />
             <h1 className="housetext2">Task settings</h1>
             <div className="oneline">
-              <Select
-                placeholder={"Mode"}
-                styles={customStyles22}
-                options={listMode}
-                components={{
-                  IndicatorSeparator: () => null,
-                  ClearIndicator: () => null,
-                }}
-                isSearchable={false}
-              />
-              <Select
-                placeholder={"Profile"}
-                styles={customStyles3}
-                options={listProfile}
-                components={{
-                  IndicatorSeparator: () => null,
-                  ClearIndicator: () => null,
-                }}
-                isSearchable={false}
-              />
+              <div class="select-wrapper41">
+                <select
+                  name="profiless"
+                  className="profilemaininput41"
+                  required
+                >
+                  <option value="" disabled selected>
+                    Mode
+                  </option>
+                  <option value="profile#2">Profile#2</option>
+                  <option value="profile#3">Profile#3</option>
+                  <option value="profile#4">Profile#4</option>
+                  <option value="profile#5">Profile#5</option>
+                </select>
+              </div>
+              <div class="select-wrapper411">
+                <select
+                  name="profiless"
+                  className="profilemaininput411"
+                  required
+                >
+                  <option value="" disabled selected>
+                    Profile
+                  </option>
+                  <option value="profile#2">Profile#2</option>
+                  <option value="profile#3">Profile#3</option>
+                  <option value="profile#4">Profile#4</option>
+                  <option value="profile#5">Profile#5</option>
+                </select>
+              </div>
             </div>
             <div className="oneline2">
-              <Select
-                placeholder={"Select size"}
-                styles={customStyles}
-                options={listSize}
-                components={{
-                  IndicatorSeparator: () => null,
-                  ClearIndicator: () => null,
-                }}
-                isSearchable={false}
-                isMulti
-              />
-              <Select
-                placeholder={"Payment Method"}
-                styles={customStyles3}
-                options={listPayment}
-                components={{
-                  IndicatorSeparator: () => null,
-                  ClearIndicator: () => null,
-                }}
-                isSearchable={false}
-              />
+              <div class="select-wrapper41">
+                <Select
+                  placeholder={"Select size"}
+                  styles={customStyles}
+                  options={listSize}
+                  components={{
+                    IndicatorSeparator: () => null,
+                    ClearIndicator: () => null,
+                  }}
+                  isSearchable={false}
+                  className="basic-multi-select"
+                  classNamePrefix="select"
+                  isMulti
+                />
+              </div>
+              <div class="select-wrapper411">
+                <select
+                  name="profiless"
+                  className="profilemaininput411"
+                  required
+                >
+                  <option value="" disabled selected>
+                    Payment method
+                  </option>
+                  <option value="profile#2">Paypal</option>
+                  <option value="profile#3">BankCard</option>
+                  <option value="profile#4">BTC</option>
+                  <option value="profile#5">LOL</option>
+                </select>
+              </div>
             </div>
           </div>
           <div className="column23">
