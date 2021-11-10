@@ -3,27 +3,12 @@ import zalando from "../../Assets/zalandopng.png";
 import Select from "react-select";
 import "../../Styling/MainZalando.css";
 
-const listMode = [
-  { label: "Random1", value: 1 },
-  { label: "Random2", value: 2 },
-  { label: "Random3", value: 3 },
-];
-const listProfile = [
-  { label: "Random12", value: 1 },
-  { label: "Random22", value: 2 },
-  { label: "Random32", value: 3 },
-];
 const listSize = [
   { label: "Small", value: 1 },
   { label: "Medium", value: 2 },
   { label: "Large", value: 3 },
   { label: "XLarge", value: 4 },
   { label: "XLL Large", value: 5 },
-];
-const listPayment = [
-  { label: "Bank Card", value: 1 },
-  { label: "PayPal", value: 2 },
-  { label: "Bitcoin", value: 3 },
 ];
 
 export default function MainZalando() {
